@@ -1,7 +1,7 @@
 var isFunctionCalled = false ;
 
 function verifyAnswer( a ){
-    if( isFunctionCalled == true )return ;
+    if( isFunctionCalled  )return ;
     isFunctionCalled = true ;
     if( a == 1 ){ 
         document.getElementById('correctOption').style.backgroundColor = "green" ;
