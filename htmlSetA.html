@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/htmlSetA.css">
+        <script src="js/htmlSetA.js"></script>
+        
+    </head>
+    <body onload="displayQuestionOption()">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">CSS</a></li>
+            <li style="float: right ;"> <a href="#">About</a> </li>
+        </ul>
+
+        <div class="container">
+           <!--Question 01 -->
+            <p id="question_01" style="font-size: 20px ; margin: 10px 10px 10px 10px ;"></p>
+            <div class = "option" id ="q1o1" onclick="colorOption( 'q1o1' , 'q1o2' , 'q1o3' , 'q1o4' , 1 , 1 ),displaySolution( 1 ,'desc_01' , 'showSolution_01' ,'q1o1'  )">
+                <p id = "question_01_option_01"></p>
+
+            </div>
+            <div class="option" id ="q1o2" onclick="colorOption( 'q1o2' , 'q1o1' , 'q1o3' , 'q1o4' , 1 , 2 ) , displaySolution( 1 ,'desc_01' , 'showSolution_01','q1o2' )">
+                <p id="question_01_option_02"></p>
+            </div>
+            <div class="option" id ="q1o3" onclick="colorOption('q1o3' , 'q1o2' , 'q1o1' , 'q1o4' , 1 , 3 ) , displaySolution( 1 ,'desc_01' , 'showSolution_01','q1o3' )">
+                <p id="question_01_option_03"></p>
+            </div>
+            <div class="option" id ="q1o4" onclick="colorOption('q1o4' , 'q1o2' , 'q1o3' , 'q1o1' , 1 , 4 ), displaySolution( 1 ,'desc_01' , 'showSolution_01','q1o4' )">
+                <p id="question_01_option_04"></p>
+            </div>
+            
+            <p class = "showSolution" id = "showSolution_01"></p>
+            <p class = "description" id = "desc_01"></p>
+               
+
+            <!--Question 02-->
+            <p id="question_02" style="font-size: 20px ; margin: 10px 10px 10px 10px ;"></p>
+            <div class = "option" id ="q2o1" onclick="colorOption( 'q2o1' , 'q2o2' , 'q2o3' , 'q2o4' , 2 , 1 ), displaySolution( 2 ,'desc_02' , 'showSolution_02','q2o1' )">
+                <p id = "question_02_option_01"></p>
+
+            </div>
+            <div class="option" id ="q2o2" onclick="colorOption( 'q2o2' , 'q2o1' , 'q2o3' , 'q2o4' , 2 , 2 ), displaySolution( 2 ,'desc_02' , 'showSolution_02','q2o2' )">
+                <p id="question_02_option_02"></p>
+            </div>
+            <div class="option" id ="q2o3" onclick="colorOption( 'q2o3' , 'q2o2' , 'q2o1' , 'q2o4' , 2 , 3 ), displaySolution( 2 ,'desc_02' , 'showSolution_02','q2o3' )">
+                <p id="question_02_option_03"></p>
+            </div>
+            <div class="option" id ="q2o4" onclick="colorOption( 'q2o4' , 'q2o2' , 'q2o3' , 'q2o1' , 2 , 4 ), displaySolution( 2 ,'desc_02' , 'showSolution_02','q2o4' )">
+                <p id="question_02_option_04"></p>
+            </div>
+            
+            <p class = "showSolution" id = "showSolution_02"></p>
+            <p class = "description" id = "desc_02"></p>
+           
+
+             <!--Question 03-->
+
+             <p id="question_03" style="font-size: 20px ; margin: 10px 10px 10px 10px ;"></p>
+             <div class = "option" id ="q3o1" onclick="colorOption( 'q3o1' , 'q3o2' , 'q3o3' , 'q3o4' , 3 , 1 ), displaySolution( 3 ,'desc_03' , 'showSolution_03','q3o1' )">
+                 <p id = "question_03_option_01"></p>
+ 
+             </div>
+             <div class="option" id ="q3o2" onclick="colorOption( 'q3o2' , 'q3o1' , 'q3o3' , 'q3o4' , 3 , 2 ), displaySolution( 3 ,'desc_03' , 'showSolution_03','q3o2' )">
+                 <p id="question_03_option_02"></p>
+             </div>
+             <div class="option" id ="q3o3" onclick="colorOption('q3o3' , 'q3o2' , 'q3o1' , 'q3o4' , 3 , 3 ), displaySolution( 3 ,'desc_03' , 'showSolution_03','q3o3' )">
+                <p id="question_03_option_03"></p>
+            </div>
+            <div class="option" id ="q3o4" onclick="colorOption('q3o4' , 'q3o2' , 'q3o3' , 'q3o1' , 3 , 4 ), displaySolution( 3 ,'desc_03' , 'showSolution_03','q3o4' )">
+                <p id="question_03_option_04"></p>
+            </div>
+             
+             <p class = "showSolution" id = "showSolution_03"></p>
+             <p class = "description" id = "desc_03"></p>
+            
+            
+             <!--Question 04-->
+             <p id="question_04" style="font-size: 20px ; margin: 10px 10px 10px 10px ;"></p>
+             <div class = "option" id ="q4o1" onclick="colorOption( 'q4o1' , 'q4o2' , 'q4o3' , 'q4o4' , 4 , 1 ), displaySolution( 4 ,'desc_04' , 'showSolution_04','q4o1' )">
+                 <p id = "question_04_option_01"></p>
+ 
+             </div>
+             <div class="option" id ="q4o2" onclick="colorOption( 'q4o2' , 'q4o1' , 'q4o3' , 'q4o4' , 4 , 2 ), displaySolution( 4 ,'desc_04' , 'showSolution_04','q4o2' )">
+                 <p id="question_04_option_02"></p>
+             </div>
+             <div class="option" id ="q4o3" onclick="colorOption('q4o3' , 'q4o2' , 'q4o1' , 'q4o4' , 4 , 3 ), displaySolution( 4 ,'desc_04' , 'showSolution_04','q4o3' )"">
+                <p id="question_04_option_03"></p>
+            </div>
+            <div class="option" id ="q4o4" onclick="colorOption('q4o4' , 'q4o2' , 'q4o3' , 'q4o1' , 4 , 4 ), displaySolution( 4 ,'desc_04' , 'showSolution_04','q4o4' )"">
+                <p id="question_04_option_04"></p>
+            </div>
+             
+             <p class = "showSolution" id = "showSolution_04"></p>
+             <p class = "description" id = "desc_04"></p>
+            
+            
+
+             <!--Question 05-->
+             <p id="question_05" style="font-size: 20px ; margin: 10px 10px 10px 10px ;"></p>
+             <div class = "option" id ="q5o1" onclick="colorOption( 'q5o1' , 'q5o2' , 'q5o3' , 'q5o4' , 5 , 1 ), displaySolution( 5 ,'desc_05' , 'showSolution_05','q5o1' )">
+                 <p id = "question_05_option_01"></p>
+ 
+             </div>
+             <div class="option" id ="q5o2" onclick="colorOption( 'q5o2' , 'q5o1' , 'q5o3' , 'q5o4' , 5 , 2 ), displaySolution( 5 ,'desc_05' , 'showSolution_05','q5o2' )">
+                 <p id="question_05_option_02"></p>
+             </div>
+             <div class="option" id ="q5o3" onclick="colorOption('q5o3' , 'q5o2' , 'q5o1' , 'q5o4' , 5 , 3 ), displaySolution( 5 ,'desc_05' , 'showSolution_05','q5o3' )">
+                <p id="question_05_option_03"></p>
+            </div>
+            <div class="option" id ="q5o4" onclick="colorOption('q5o4' , 'q5o2' , 'q5o3' , 'q5o1' , 5 , 4 ), displaySolution( 5 ,'desc_05' , 'showSolution_05','q5o4' )">
+                <p id="question_05_option_04"></p>
+            </div>
+             
+             <p class = "showSolution" id = "showSolution_05"></p>
+             <p class = "description" id = "desc_05"></p>
+            
+            
+
+             <!--Question 06 -->
+             <p id="question_06" style="font-size: 20px ; margin: 10px 10px 10px 10px ;"></p>
+             <div class = "option" id ="q6o1" onclick="colorOption( 'q6o1' , 'q6o2' , 'q6o3' , 'q6o4' , 6 , 1 ), displaySolution( 6 ,'desc_06' , 'showSolution_06','q6o1' )">
+                 <p id = "question_06_option_01"></p>
+ 
+             </div>
+             <div class="option" id ="q6o2" onclick="colorOption( 'q6o2' , 'q6o1' , 'q6o3' , 'q6o4' , 6 , 2 ), displaySolution( 6 ,'desc_06' , 'showSolution_06','q6o2' )">
+                 <p id="question_06_option_02"></p>
+             </div>
+             <div class="option" id ="q6o3" onclick="colorOption('q6o3' , 'q6o2' , 'q6o1' , 'q6o4' , 6 , 3 ), displaySolution( 6 ,'desc_06' , 'showSolution_06','q6o3' )">
+                <p id="question_06_option_03"></p>
+            </div>
+            <div class="option" id ="q6o4" onclick="colorOption('q6o4' , 'q6o2' , 'q6o3' , 'q6o1' , 6 , 4 ), displaySolution( 6 ,'desc_06' , 'showSolution_06','q6o4' )"">
+                <p id="question_06_option_04"></p>
+            </div>
+             
+             <p class = "showSolution" id = "showSolution_06"></p>
+             <p class = "description" id = "desc_06"></p>
+            
+            
+
+             <!--Question 07 -->
+             <p id="question_07" style="font-size: 20px ; margin: 10px 10px 10px 10px ;"></p>
+             <div class = "option" id ="q7o1" onclick="colorOption( 'q7o1' , 'q7o2' , 'q7o3' , 'q7o4' , 7 , 1 ), displaySolution( 7 ,'desc_07' , 'showSolution_07','q7o1' )">
+                 <p id = "question_07_option_01"></p>
+ 
+             </div>
+             <div class="option" id ="q7o2" onclick="colorOption( 'q7o2' , 'q7o1' , 'q7o3' , 'q7o4' , 7 , 2 ), displaySolution( 7 ,'desc_07' , 'showSolution_07','q7o2' )">
+                 <p id="question_07_option_02"></p>
+             </div>
+             <div class="option" id ="q7o3" onclick="colorOption('q7o3' , 'q7o2' , 'q7o1' , 'q7o4' , 7 , 3 ), displaySolution( 7 ,'desc_07' , 'showSolution_07','q7o3' )">
+                <p id="question_07_option_03"></p>
+            </div>
+            <div class="option" id ="q7o4" onclick="colorOption('q7o4' , 'q7o2' , 'q7o3' , 'q7o1' , 7 , 4 ), displaySolution( 7 ,'desc_07' , 'showSolution_07','q7o4' )">
+                <p id="question_07_option_04"></p>
+            </div>
+             
+             <p class = "showSolution" id = "showSolution_07"></p>
+             <p class = "description" id = "desc_07"></p>
+            
+            
+
+             <!--Question 08 -->
+             <p id="question_08" style="font-size: 20px ; margin: 10px 10px 10px 10px ;"></p>
+             <div class = "option" id ="q8o1" onclick="colorOption( 'q8o1' , 'q8o2' , 'q8o3' , 'q8o4' , 8 , 1 ), displaySolution( 8 ,'desc_08' , 'showSolution_08','q8o1' )">
+                 <p id = "question_08_option_01"></p>
+ 
+             </div>
+             <div class="option" id ="q8o2" onclick="colorOption( 'q8o2' , 'q8o1' , 'q8o3' , 'q8o4' , 8 , 2 ), displaySolution( 8 ,'desc_08' , 'showSolution_08','q8o2' )">
+                 <p id="question_08_option_02"></p>
+             </div>
+             <div class="option" id ="q8o3" onclick="colorOption('q8o3' , 'q8o2' , 'q8o1' , 'q8o4' , 8 , 3 ), displaySolution( 8 ,'desc_08' , 'showSolution_08','q8o3' )">
+                <p id="question_08_option_03"></p>
+            </div>
+            <div class="option" id ="q8o4" onclick="colorOption('q8o4' , 'q8o2' , 'q8o3' , 'q8o1' , 8 , 4 ), displaySolution( 8 ,'desc_08' , 'showSolution_08','q8o4' )">
+                <p id="question_08_option_04"></p>
+            </div>
+             
+             <p class = "showSolution" id = "showSolution_08"></p>
+             <p class = "description" id = "desc_08"></p>
+            
+            
+
+             <!--Question 09 -->
+             <p id="question_09" style="font-size: 20px ; margin: 10px 10px 10px 10px ;"></p>
+             <div class = "option" id ="q9o1" onclick="colorOption( 'q9o1' , 'q9o2' , 'q9o3' , 'q9o4' , 9 , 1 ), displaySolution( 9 ,'desc_09' , 'showSolution_09','q9o1' )">
+                 <p id = "question_09_option_01"></p>
+ 
+             </div>
+             <div class="option" id ="q9o2" onclick="colorOption( 'q9o2' , 'q9o1' , 'q9o3' , 'q9o4' , 9 , 2 ), displaySolution( 9 ,'desc_09' , 'showSolution_09','q9o2' )">
+                 <p id="question_09_option_02"></p>
+             </div>
+             <div class="option" id ="q9o3" onclick="colorOption('q9o3' , 'q9o2' , 'q9o1' , 'q9o4' , 9 , 3 ), displaySolution( 9 ,'desc_09' , 'showSolution_09','q9o3' )">
+                <p id="question_09_option_03"></p>
+            </div>
+            <div class="option" id ="q9o4" onclick="colorOption('q9o4' , 'q9o2' , 'q9o3' , 'q9o1' , 9 , 4 ), displaySolution( 9 ,'desc_09' , 'showSolution_09','q9o4' )">
+                <p id="question_09_option_04"></p>
+            </div>
+             
+             <p class = "showSolution" id = "showSolution_09"></p>
+             <p class = "description" id = "desc_09"></p>
+            
+             
+
+             <!--Question 10 -->
+             <p id="question_10" style="font-size: 20px ; margin: 10px 10px 10px 10px ;"></p>
+             <div class = "option" id ="q10o1" onclick="colorOption( 'q10o1' , 'q10o2' , 'q10o3' , 'q10o4' , 10 , 1 ), displaySolution( 10 ,'desc_10' , 'showSolution_10','q10o1' )">
+                 <p id = "question_10_option_01"></p>
+ 
+             </div>
+             <div class="option" id ="q10o2" onclick="colorOption( 'q10o2' , 'q10o1' , 'q10o3' , 'q10o4' , 10 , 2 ), displaySolution( 10 ,'desc_01' , 'showSolution_10','q10o2' )">
+                 <p id="question_10_option_02"></p>
+             </div>
+             <div class="option" id ="q10o3" onclick="colorOption('q10o3' , 'q10o2' , 'q10o1' , 'q10o4' , 10 , 3 ), displaySolution( 10 ,'desc_10' , 'showSolution_10','q10o3' )">
+                <p id="question_10_option_03"></p>
+            </div>
+            <div class="option" id ="q10o4" onclick="colorOption('q10o4' , 'q10o2' , 'q10o3' , 'q10o1' , 10 , 4 ), displaySolution( 10 ,'desc_10' , 'showSolution_10','q10o4' )">
+                <p id="question_10_option_04"></p>
+            </div>
+             
+             <p class = "showSolution" id = "showSolution_10"></p>
+             <p class = "description" id = "desc_10"></p>
+            
+            
+
+           
+        </div>
+        
+
+       
+        
+    </body>
+
+    
+</html>
